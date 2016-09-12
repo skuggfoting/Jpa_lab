@@ -76,7 +76,6 @@ public final class Main
 		System.out.println(mattias.toString());
 
 		// update user
-//		User mattiasn = new User("bajs","macka","kiss","active");
 		mattias.setStatus("passive");
 		System.out.println(eService.setStatus(mattias));
 		System.out.println(mattias.toString());
